@@ -21,5 +21,4 @@ public class ApprovalAppGetRes {
     private String userName;
     private String deptName;
 
-
 }

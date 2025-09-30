@@ -4,6 +4,7 @@ package com.green.muziuniv_be_notuser.app.staff.approval;
 
 import com.green.muziuniv_be_notuser.app.staff.approval.model.ApprovalAppGetReq;
 import com.green.muziuniv_be_notuser.app.staff.approval.model.ApprovalAppGetRes;
+
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
@@ -13,4 +14,5 @@ public interface ApprovalMapper {
     List<ApprovalAppGetRes> selectApplications(ApprovalAppGetReq req);
 
     int updateApplicationStatus(Long appId, String status);
+
 }
